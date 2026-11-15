@@ -319,7 +319,7 @@
             this.Controls.Add(this.apellidoTextBox);
             this.Controls.Add(this.clienteBindingNavigator);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "practica 10 willi";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingNavigator)).EndInit();
             this.clienteBindingNavigator.ResumeLayout(false);

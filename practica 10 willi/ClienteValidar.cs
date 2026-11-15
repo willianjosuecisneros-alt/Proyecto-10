@@ -14,7 +14,7 @@ namespace practica_10_willi
             RuleFor(x => x.ID).NotEmpty();
             RuleFor(x => x.Nombre).NotEmpty().WithMessage("el nombre esta vacio");
             RuleFor(x => x.Apellido).NotEmpty().WithMessage("el apellido esta vacio");
-            RuleFor(x => x.Direccion).NotEmpty().Length(20,255).WithMessage("revise su direccion");
+            RuleFor(x => x.Direccion).NotEmpty().Length(20,255).WithMessage("su direccion esta mal");
             RuleFor(x => x.Email).EmailAddress();
         }
     }
